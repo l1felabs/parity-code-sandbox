@@ -1,8 +1,8 @@
 {
-  "name": "tp-coding-fixture",
+  "name": "parity-code-sandbox",
   "version": "0.1.0",
   "private": true,
-  "description": "Small shop-ledger app used only as a test fixture for coding-agent parity runs (TP).",
+  "description": "Small shop-ledger app used only as a test sandbox for coding-agent parity runs.",
   "main": "src/index.js",
   "bin": { "ledger": "src/cli.js" },
   "scripts": { "test": "node --test test/", "start": "node src/server.js" },

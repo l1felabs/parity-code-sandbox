@@ -1,5 +1,5 @@
-# tp-coding-fixture
+# parity-code-sandbox
 
-Small shop-ledger app (Node 20+, CommonJS, no dependencies): money in cents, items, discounts, state tax, receipt, a tiny HTTP server (`/healthz`, `/quote`) and a CLI.
+A small shop app (Node 20+, CommonJS, no dependencies): money in cents, items, discounts, state tax, coupons, inventory with reservations, orders, a daily report, JSON storage, a tiny HTTP server (`/healthz`, `/quote`) and a CLI.
 
-Test fixture only, for coding-agent parity runs on the TP test org. Not a product. `npm test` runs the suite (node:test).
+Test sandbox only, for side-by-side coding-agent runs. Not a product; holds no secrets. `npm test` runs the suite (node:test). CI: `.github/workflows/ci.yml` and `cloudbuild.yaml` both run `npm test`.
